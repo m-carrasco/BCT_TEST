@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{114909EB-31D0-4C5F-AA76-DDFBE4FEE6FA}</ProjectGuid>
+    <ProjectGuid>{12489854-EF72-41CE-8260-2BC453866998}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>NLucene</RootNamespace>
@@ -43,86 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Analysis\Analyzer.cs" />
-    <Compile Include="Analysis\BooleanQuery.cs" />
-    <Compile Include="Analysis\LowerCaseFilter.cs" />
-    <Compile Include="Analysis\PorterStemmer.cs" />
-    <Compile Include="Analysis\Standard\FastCharStream.cs" />
-    <Compile Include="Analysis\Standard\StandardAnalyzer.cs" />
-    <Compile Include="Analysis\Standard\StandardFilter.cs" />
-    <Compile Include="Analysis\Standard\StandardTokenizer.cs" />
-    <Compile Include="Analysis\Standard\Stc.cs" />
-    <Compile Include="Analysis\Standard\TokenTypes.cs" />
-    <Compile Include="Analysis\StopFilter.cs" />
-    <Compile Include="Analysis\Token.cs" />
-    <Compile Include="Analysis\TokenFilter.cs" />
-    <Compile Include="Analysis\Tokenizer.cs" />
-    <Compile Include="Analysis\TokenStream.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Documents\DateField.cs" />
-    <Compile Include="Documents\Document.cs" />
-    <Compile Include="Documents\DocumentFieldList.cs" />
-    <Compile Include="Documents\DocumentFields.cs" />
-    <Compile Include="Documents\Field.cs" />
-    <Compile Include="FileDocument.cs" />
-    <Compile Include="Index\DocumentWriter.cs" />
-    <Compile Include="Index\FieldInfo.cs" />
-    <Compile Include="Index\FieldInfos.cs" />
-    <Compile Include="Index\FieldsReader.cs" />
-    <Compile Include="Index\FieldsWriter.cs" />
-    <Compile Include="Index\IndexReader.cs" />
-    <Compile Include="Index\IndexWriter.cs" />
-    <Compile Include="Index\ITermDocs.cs" />
-    <Compile Include="Index\ITermEnum.cs" />
-    <Compile Include="Index\ITermPositions.cs" />
-    <Compile Include="Index\Posting.cs" />
-    <Compile Include="Index\SegmentInfo.cs" />
-    <Compile Include="Index\SegmentInfos.cs" />
-    <Compile Include="Index\SegmentMergeInfo.cs" />
-    <Compile Include="Index\SegmentMergeQueue.cs" />
-    <Compile Include="Index\SegmentMerger.cs" />
-    <Compile Include="Index\SegmentReader.cs" />
-    <Compile Include="Index\SegmentsReader.cs" />
-    <Compile Include="Index\SegmentsTermDocs.cs" />
-    <Compile Include="Index\SegmentsTermEnum.cs" />
-    <Compile Include="Index\SegmentsTermPositions.cs" />
-    <Compile Include="Index\SegmentTermDocs.cs" />
-    <Compile Include="Index\SegmentTermEnum.cs" />
-    <Compile Include="Index\SegmentTermPositions.cs" />
-    <Compile Include="Index\Term.cs" />
-    <Compile Include="Index\TermInfo.cs" />
-    <Compile Include="Index\TermInfosReader.cs" />
-    <Compile Include="Index\TermInfosWriter.cs" />
-    <Compile Include="Luindex.cs" />
-    <Compile Include="Search\BooleanClause.cs" />
-    <Compile Include="Search\BooleanScorer.cs" />
-    <Compile Include="Search\DateFilter.cs" />
-    <Compile Include="Search\Filter.cs" />
-    <Compile Include="Search\Hit.cs" />
-    <Compile Include="Search\HitCollector.cs" />
-    <Compile Include="Search\Hits.cs" />
-    <Compile Include="Search\PhrasePositions.cs" />
-    <Compile Include="Search\Query.cs" />
-    <Compile Include="Search\ScoreDoc.cs" />
-    <Compile Include="Search\Scorer.cs" />
-    <Compile Include="Search\Searcher.cs" />
-    <Compile Include="Search\Similarity.cs" />
-    <Compile Include="Search\TopDocs.cs" />
-    <Compile Include="Store\Directory.cs" />
-    <Compile Include="Store\FsDirectory.cs" />
-    <Compile Include="Store\FsInputStream.cs" />
-    <Compile Include="Store\FsOutputStream.cs" />
-    <Compile Include="Store\InputStream.cs" />
-    <Compile Include="Store\Lock.cs" />
-    <Compile Include="Store\OutputStream.cs" />
-    <Compile Include="Store\RamDirectory.cs" />
-    <Compile Include="Store\RamFile.cs" />
-    <Compile Include="Store\RamInputStream.cs" />
-    <Compile Include="Store\RamOutputStream.cs" />
-    <Compile Include="Util\Arrays.cs" />
-    <Compile Include="Util\BitVector.cs" />
-    <Compile Include="Util\Number.cs" />
-    <Compile Include="Util\PriorityQueue.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
